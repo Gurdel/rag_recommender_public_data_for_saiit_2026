@@ -1,0 +1,229 @@
+{
+  "total_turns": 95,
+  "nlu_turns": 95,
+  "dm_turns": 95,
+  "nlu_exact_accuracy": 0.8947368421052632,
+  "dm_subset_accuracy": 0.8631578947368421,
+  "nlu_constraint_metrics": {
+    "tp": 105,
+    "tn": 1317,
+    "fp": 0,
+    "fn": 12,
+    "precision": 1.0,
+    "recall": 0.8974358974358975,
+    "f1": 0.945945945945946,
+    "accuracy": 0.9916317991631799
+  },
+  "nlu_constraint_metrics_by_field": {
+    "structured_constraints.authors": {
+      "tp": 14,
+      "tn": 74,
+      "fp": 0,
+      "fn": 11,
+      "precision": 1.0,
+      "recall": 0.56,
+      "f1": 0.717948717948718,
+      "accuracy": 0.8888888888888888
+    },
+    "structured_constraints.categories": {
+      "tp": 15,
+      "tn": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "structured_constraints.series": {
+      "tp": 0,
+      "tn": 95,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": 1.0
+    },
+    "structured_constraints.publishers": {
+      "tp": 0,
+      "tn": 95,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": 1.0
+    },
+    "structured_constraints.languages": {
+      "tp": 3,
+      "tn": 92,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "structured_constraints.periods": {
+      "tp": 5,
+      "tn": 90,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "structured_constraints.types": {
+      "tp": 2,
+      "tn": 93,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "structured_constraints.year_from": {
+      "tp": 2,
+      "tn": 93,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "structured_constraints.year_to": {
+      "tp": 0,
+      "tn": 95,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": 1.0
+    },
+    "structured_constraints.pages_min": {
+      "tp": 0,
+      "tn": 95,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": 1.0
+    },
+    "structured_constraints.pages_max": {
+      "tp": 1,
+      "tn": 94,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "semantic_query.moods": {
+      "tp": 5,
+      "tn": 91,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "semantic_query.themes": {
+      "tp": 8,
+      "tn": 90,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "semantic_query.free_text": {
+      "tp": 0,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": null
+    },
+    "books": {
+      "tp": 21,
+      "tn": 75,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "requested_count": {
+      "tp": 29,
+      "tn": 65,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9666666666666667,
+      "f1": 0.983050847457627,
+      "accuracy": 0.9894736842105263
+    },
+    "unresolved_entities.authors": {
+      "tp": 0,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": null
+    },
+    "unresolved_entities.books": {
+      "tp": 0,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": null
+    },
+    "unresolved_entities.categories": {
+      "tp": 0,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": null
+    },
+    "unresolved_entities.series": {
+      "tp": 0,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": null
+    },
+    "unresolved_entities.publishers": {
+      "tp": 0,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": null
+    }
+  }
+}
