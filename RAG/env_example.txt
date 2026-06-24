@@ -1,0 +1,6 @@
+# Copy and rename this file to '.env'
+OPENAI_API_KEY=YOUR_OPENAI_KEY
+BOOKS_DB_PATH=data/gold/sqlite/books_v3.db
+CHROMA_DB_PATH=data/gold/chroma/books
+OPENAI_MODEL=gpt-5-mini
+DEFAULT_USER_ID=1
